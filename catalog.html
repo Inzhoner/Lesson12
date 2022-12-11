@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catalog</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Меняем цвет navbar-dark bg-dark, плюс закладка color thems -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://online.lemon.school/uk"
+          ><img src="../src/icons/LOGOtip.png" alt="lemon-logo"
+        /></a>
+        <!-- ___START___Burger menu (button)-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- ___END___Burger menu (button)-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left menu (MS-margin-left  можно найти в утилитах bootstrap Spacing)-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 top-menu">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../src/bootstrap-5.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/nth-child.html">nth-child</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../src/catalog.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Position</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Main-tags</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fonts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mariela_Rost</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Все ссылки в процессе отладки</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Mariela_Rost</a></li>
+                <li><a class="dropdown-item" href="#">Fonts</a></li>
+                <li><a class="dropdown-item" href="#">Main-tags</a></li>
+                <li><a class="dropdown-item" href="#">Position</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Dropdown    END-->
+          </ul>
+
+          <!-- Right menu (ME-margin-right  можно найти в утилитах bootstrap Spacing)-->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link right-menu"
+                href="https://lemon.test-lemon.com/group-31.10.2022/"
+                ><img src="../src/icons/group.png" alt="group-logo"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link right-menu"
+                href="https://docs.google.com/spreadsheets/d/1ewqYdhXiC4dYaxzlzQAFZDs8KQJ1_oDjdIMTwK1fdqg/edit#gid=0"
+                ><img src="../src/icons/performance.png" alt="performance"
+              /></a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link right-menu"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#modal-youtube"
+              >
+                <img src="../src/icons/youtube.png" alt="performance" />
+              </a>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="modal-youtube"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Modal title
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <a href="https://www.youtube.com/watch?v=yOFtSK0iBbY"
+                        >Lesson-10</a
+                      >
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="w-100 btn btn-danger"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="w-100 btn btn-dark">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- modal - 2 -->
+            <li class="nav-item">
+              <a
+                class="nav-link right-menu"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#tg-link"
+              >
+                <img src="../src/icons/telegram.png" alt="telegram" />
+              </a>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="tg-link"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="tg-lin">
+                        <!--      ??? -->
+                        Modal telegram
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <a href="https://t.me/friend_frontend">TG</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="w-100 btn btn-danger"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="w-100 btn btn-dark">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- modal - 2    END -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Catalog -->
+    <h1 class="catalog-title">Каталог товаров</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-md-5 bg-danger text-md-end">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          provident culpa distinctio, asperiores nisi nihil quidem nemo minima
+          possimus explicabo voluptatum eaque aspernatur suscipit dolore fugiat
+          quod ea est tenetur quae dolor sit? Doloremque voluptates beatae
+          quisquam harum reiciendis qui accusamus labore quo incidunt non aut
+          cumque, placeat sit itaque.
+        </div>
+
+        <div class="col-xl-8 col-md-7 bg-light">
+          <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-success">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-secondary">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-primary">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-success">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-secondary">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-primary">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-success">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-secondary">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-6 my-3 bg-primary">
+              <div class="prodact">
+                <div class="prodact-img">
+                  <img
+                    src="../src/img/product-watch.webp"
+                    class="img-fluid"
+                    alt="watch"
+                  />
+                </div>
+                <h4 class="prodact-title">Lorem, ipsum dolor.</h4>
+                <h6 class="prodact-description mt-2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Consectetur accusamus quia quas labore iusto ratione commodi,
+                  reprehenderit laboriosam tempore quis?
+                </h6>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-dark">Lorem</button>
+                  </div>
+                  <div class="col-12 col-md-6 mb-2">
+                    <button class="w-100 btn btn-danger">Lorem</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br /><br />
+    <!-- Accordion -->
+    <h1 class="catalog-title">Accordion</h1>
+    <div class="container container-accordion">
+      <div class="accordion accordion-faq" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              Як я можу зробити грошовий внесок для певного проекту?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body">
+              <div class="accordion-body_title">
+                Які є гарантії того, що кошти підуть саме на ту справу, що
+                указана в назві проекту?
+              </div>
+              <div class="accordion-body_subtitle">
+                Котивсь зеленими царинками, маленький і білий, наче банька
+                кульбаби, безстрашно забирався у темний ліс, де гаджуги кивали
+                над ним галузками, як ведмідь лабами. Звідси дивився на гори,
+                близькі й далекі верхи, що голубіли на небі, на смерекові чорні
+                ліси з їх синім диханням, на ясну зелень царинок, що, мов
+                дзеркала, блищали в рамах дерев. Під ним, в долині, кипів
+                холодний Черемош. По далеких горбах дрімали на сонці самотні
+                оселі. Були так тихо і сумно, чорні смереки безперестанку
+                спускали сум свій в Черемош, а він ніс його долом й оповідав.
+                Вище, по безводних далеких недеях, нявки розводять свої
+                безконечні танки, а по скелях ховається щезник.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              Де я можу прочитати звіти щодо завершених проектів?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body">
+              <div class="accordion-body__title">Які</div>
+              <div class="accordion-body__subtitle">Котивсь</div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              Чим відрізняються акції та проекти фонду?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body">
+              This is the second item's accordion body.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Accordion   END-->
+
+    <!-- Batton -->
+    <h1 class="catalog-title">Button</h1>
+    <div class="container">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-link">Link</button>
+    </div>
+    <!-- Button   END -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <!-- кнопка -->
+    <div class="container">
+      <form>
+        <label class="toggle">
+          <div class="wrapper">
+            <input type="checkbox" />
+            <div class="toggle-bg">
+              <div class="sphere">
+                <div class="sphere-bg"></div>
+                <div class="sphere-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </label>
+      </form>
+    </div>
+
+    <script src="../src/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/js/bootstrap-5.js"></script>
+  </body>
+</html>
